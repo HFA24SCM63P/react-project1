@@ -20,6 +20,7 @@
 
 .card{
     width: 200px;
+    height: 350px;
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
@@ -33,4 +34,31 @@
 .restaurantList{
     display: flex;
     flex-wrap: wrap;
+}
+
+.shimmer-card{
+    width: 200px;
+    height: 200px;
+    background: lightgrey;
+    margin: 20px;
+}
+
+.red{
+    color: rgb(255, 0, 0);
+}
+
+.green{
+    color: rgb(0, 255, 0);
+}
+
+.restaurant-menu-card > img{
+    height: 200px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: black;
 }

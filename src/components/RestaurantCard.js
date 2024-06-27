@@ -1,6 +1,6 @@
 import { IMG_CDN_URL } from "../config";
 
-const Restaurantcard = ({ cloudinaryImageId, name, avgRating, cuisines }) => {
+const Restaurantcard = ({ avgRating, cloudinaryImageId, cuisines, name }) => {
   return (
     <div className="card">
       <img src={IMG_CDN_URL.concat(cloudinaryImageId)} />
